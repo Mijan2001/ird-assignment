@@ -2,6 +2,12 @@
 
 A modern web application built with Next.js 15 and Tailwind CSS, featuring a clean and responsive design.
 
+## Project Video Link : https://youtu.be/jcYfBVBZ3Tk
+
+## Github Live Link : https://ird-assignment.vercel.app/
+
+## Github Source Code Link : https://github.com/Mijan2001/ird-assignment
+
 ## Project photos
 
 ![Desktop View](./public/project-images/desktop-view.png)
