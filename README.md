@@ -1,36 +1,104 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# IRD Foundation Assignment
 
-## Getting Started
+A modern web application built with Next.js 15 and Tailwind CSS, featuring a clean and responsive design.
 
-First, run the development server:
+## Project photos
+
+![Desktop View](./public/project-images/desktop-view.png)
+![Desktop View](./public/project-images/tablet-view2.png)
+![Desktop View](./public/project-images/mobile-view.png)
+
+## Features
+
+-   Modern Next.js App Router architecture
+-   Responsive design with Tailwind CSS
+-   Optimized performance with Turbopack
+-   Clean and maintainable code structure
+-   Comprehensive icon support with Lucide React and React Icons
+
+## Technologies
+
+-   **Framework:** [Next.js 15](https://nextjs.org/) (App Router)
+-   **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+-   **Icons:** [Lucide React](https://lucide.dev/) & [React Icons](https://react-icons.github.io/react-icons/)
+-   **Development:**
+    -   ESLint for code linting
+    -   Turbopack for faster development builds
+
+## Prerequisites
+
+Before you begin, ensure you have the following installed:
+
+-   Node.js (Latest LTS version recommended)
+-   npm or yarn package manager
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Mijan2001/ird-assignment.git
+cd ird-assignment
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+# or
+yarn install
+```
+
+## Development
+
+To start the development server:
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The application will be available at [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+To create a production build:
 
-## Learn More
+```bash
+npm run build
+# or
+yarn build
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Production
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+To start the production server:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm run start
+# or
+yarn start
+```
 
-## Deploy on Vercel
+## Project Structure
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```
+ird-assignment/
+├── app/                # Next.js app directory (App Router)
+├── public/            # Static assets
+├── .next/            # Next.js build output
+├── node_modules/     # Dependencies
+├── package.json      # Project configuration and dependencies
+├── postcss.config.mjs # PostCSS configuration
+├── next.config.mjs   # Next.js configuration
+├── jsconfig.json     # JavaScript configuration
+└── eslint.config.mjs # ESLint configuration
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Available Scripts
+
+-   `dev` - Start development server with Turbopack
+-   `build` - Create production build
+-   `start` - Start production server
+-   `lint` - Run ESLint
